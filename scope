@@ -1,0 +1,26 @@
+1.PROJECT SCOPE
+1.0 .Project Scope
+This project focuses on upgrading the network infrastructure of a software
+development organisation to address performance, security, and scalability issues.
+1.1 Current Network Overview and Challenges
+The organisation uses a 24-port unmanaged switch with a shared internet connection
+configured through Windows. An internal server provides FTP and HTTP services.
+Key Issues: Network congestion leading to slow performance, lack of security
+between departments, and limited scalability with a single 192.168.1.0/24 subnet.
+1.2 Objectives and Approach
+Performance: Use VLANs and managed switches to reduce broadcast traffic and
+improve speed.
+Security: Implement VLAN segmentation and ACLs to control data flow and restrict
+unauthorised access.
+Scalability: Adopt a modular network design and flexible IP addressing to
+accommodate future growth.
+1.3 Scope of Implementation
+Network Segmentation: Create VLANs for Sales, Development, Testing, and the
+server, with tailored access controls.
+Hardware Upgrades: Install a managed switch, configure a router for inter-VLAN
+routing, and implement power redundancy.
+Deliverables: Provide an optimised and secure network, with detailed documentation
+and minimal planned downtime for installation.
+This condensed version gives a high-level summary of the project scope while
+highlighting the key issues, objectives, and implementation plan.
+￼
