@@ -1,0 +1,14 @@
+Key Requirements
+Network Segmentation: The network must be divided into separate VLANs for Sales,
+Development, Testing, and the Server, each with a unique TCP/IP address range to
+improve performance and security.
+Traffic Management: Use a managed switch to handle VLAN traffic and ensure
+broadcast traffic is confined to its respective segment, reducing congestion.
+Access Control: Implement Access Control Lists (ACLs) on the router to restrict
+inter-departmental communication, with specific permissions for Development and
+Testing departments to access each other.
+Server Protection: Configure the network so that only FTP and HTTP traffic can
+reach the internal server, blocking all other traffic types.
+Hardware Reliability: Use a power backup system (such as a UPS) for critical
+network components to ensure continuous operation during power outages.
+￼
