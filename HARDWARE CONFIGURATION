@@ -1,0 +1,28 @@
+2.4.HARDWARE CONFIGURATION
+2.4.1 Cisco Router Configuration
+Router Interfaces
+Interface Configuration: Configure interfaces for each VLAN to allow inter-VLAN
+routing.
+2.4.2 Managed Switch Configuration
+VLAN Configuration
+VLAN Creation: Create VLANs for each department and assign ports accordingly.
+2.5 Access Control Lists (ACL) Configuration
+2.5.1 ACL Creation
+Purpose: Define rules to restrict access between VLANs based on departmental needs.
+2.5.2 ACL Explanation
+Access Control: The ACL permits only FTP and HTTP traffic from the Sales VLAN
+to the Server VLAN while denying all other traffic, ensuring that the Sales department
+cannot access Development and Testing VLANs.
+2.6 Summary of Configuration
+2.6.1 Documentation
+Maintain detailed documentation of all configuration settings for troubleshooting and
+future reference.
+2.6.2 Testing
+After configuration, conduct tests to ensure proper communication between VLANs
+and verify that ACLs are functioning as intended.
+These figures illustrate the configuration settings for the interfaces on Router 1 and
+Router 2, detailing the IP addressing and NAT (Network Address Translation)
+configurations essential for establishing communication between the internal
+organisation network and the external internet simulation. Each interface configuration
+serves a specific role in the network design.
+￼ 6
